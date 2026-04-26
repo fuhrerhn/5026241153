@@ -20,6 +20,6 @@
 
 		@endforeach
 
-	</ul>   
+	</ul>       
 </body>
 </html>
