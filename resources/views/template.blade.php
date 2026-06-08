@@ -21,16 +21,16 @@
                     <a class="nav-link active" href="/pegawai">Pegawai</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/blueray">Blueray</a>
+                    <a class="nav-link" href="/blueray">Pra EAS. Blueray</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/siswa">Siswa</a>
+                    <a class="nav-link" href="/siswa">Pertemuan 14. Siswa</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/keranjang-belanja">Keranjang Belanja</a>
+                    <a class="nav-link" href="/keranjang-belanja">Latihan 1. Keranjang Belanja</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/nilaikuliah">Nilai Kuliah</a>
+                    <a class="nav-link" href="/nilaikuliah">Latihan 2. Nilai Kuliah</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">EAS</a>
