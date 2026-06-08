@@ -14,6 +14,8 @@
         </div>
     </form>
 
+    <br>
+
 	<table class="table table-striped table-hover table-bordered">
 		<tr>
 			<th>Nama</th>
