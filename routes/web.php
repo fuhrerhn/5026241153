@@ -9,6 +9,7 @@ use App\Http\Controllers\SiswaController;
 use App\Http\Controllers\BluerayDBController;
 use App\Http\Controllers\KeranjangBelanjaDBController;
 use App\Http\Controllers\NilaiKuliahDBController;
+use App\Http\Controllers\MyPegawaiController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -105,3 +106,11 @@ Route::get('/keranjang-belanja/batal/{id}', [KeranjangBelanjaDBController::class
 Route::get('/nilaikuliah', [NilaiKuliahDBController::class, 'index']) ->name('nilaikuliah.index');
 Route::get('/nilaikuliah/tambahdata', [NilaiKuliahDBController::class, 'create']) ->name('nilaikuliah.create');
 Route::post('/nilaikuliah/store', [NilaiKuliahDBController::class, 'store']) ->name('nilaikuliah.store');
+
+// CRUD Tabel mypegawai EAS
+Route::get('/eas', [MyPegawaiController::class, 'index'])->name('mypegawai.index');
+Route::get('/eas/tambah', [MyPegawaiController::class, 'create'])->name('mypegawai.create');
+Route::post('/eas', [MyPegawaiController::class, 'store'])->name('mypegawai.store');
+Route::get('/eas/{kodepegawai}/view', [MyPegawaiController::class, 'view'])->name('mypegawai.view');
+Route::put('/eas/{kodepegawai}', [MyPegawaiController::class, 'update'])->name('mypegawai.update');
+Route::delete('/eas/{kodepegawai}', [MyPegawaiController::class, 'destroy'])->name('mypegawai.destroy');
